@@ -1,0 +1,43 @@
+{
+    "Currency": {
+        "$": 1,
+        "EGP": 16,
+        "EUR": 1.1
+    },
+    "Shop": {
+        "Inventory": {
+            "Products": {
+                "T-shirt": {
+                    "Price": 10.99,
+                    "Currency": "$",
+                    "Offer": null
+                },
+                "Pants": {
+                    "Price": 14.99,
+                    "Currency": "$",
+                    "Offer": null
+                },
+                "Jacket": {
+                    "Price": 19.99,
+                    "Currency": "$",
+                    "Offer": {
+                        "Condition": [
+                            "T-shirt",
+                            "T-shirt"
+                        ],
+                        "Percentage": 0.5
+                    }
+                },
+                "Shoes": {
+                    "Price": 24.99,
+                    "Currency": "$",
+                    "Offer": {
+                        "Condition": [],
+                        "Percentage": 0.1
+                    }
+                }
+            }
+        },
+        "Tax": 0.14
+    }
+}
